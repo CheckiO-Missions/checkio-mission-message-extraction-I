@@ -10,27 +10,17 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
-        },
-        {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
-        },
+        {"input": ["hxeqlzlzow!", 2], "answer": "hello!"},
+        {"input": ["abcdefr", 2], "answer": "acer"},
+        {"input": ["dbcoefc", 3], "answer": "doc"},
     ],
     "Extra": [
-        {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
-        },
-        {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        },
+        {"input": ["spycode", 1], "answer": "spycode"},
+        {"input": ["python", 6], "answer": "p"},
+        {"input": ["ppy3ppy", 2], "answer": "pypy"},
+        {"input": ["HELLOworld", 5], "answer": "Hw"},
+        {"input": ["", 3], "answer": ""},
+        {"input": ["123456789", 4], "answer": "159"},
+        {"input": ["noiseMESSAGE", 2], "answer": "nieESG"}
     ]
 }
